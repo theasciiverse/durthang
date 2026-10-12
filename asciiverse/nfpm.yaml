@@ -2,6 +2,9 @@
 # the same static binary as the av archive. The release workflow sets
 # VERSION, RELEASE (our packaging release) and ARCH (amd64 or arm64), and
 # puts the binary at stage/durthang.
+#
+# No .desktop file on purpose: av is the one place titles are started from,
+# so Asciiverse packages never add menu entries (asciiverse/CLAUDE.md).
 name: durthang
 arch: ${ARCH}
 platform: linux
