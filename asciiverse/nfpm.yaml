@@ -1,0 +1,33 @@
+# System packages (.deb, .rpm, .apk, Arch) for Durthang, built by nfpm from
+# the same static binary as the av archive. The release workflow sets
+# VERSION, RELEASE (our packaging release) and ARCH (amd64 or arm64), and
+# puts the binary at stage/durthang.
+name: durthang
+arch: ${ARCH}
+platform: linux
+version: ${VERSION}
+release: ${RELEASE}
+section: net
+priority: optional
+maintainer: Asciiverse <packages@asciiverse.sh>
+vendor: Asciiverse
+homepage: https://github.com/theasciiverse/durthang
+license: GPL-3.0-only
+description: |
+  Terminal MUD client in Rust and Ratatui.
+  Durthang connects to MUDs over plain TCP or TLS, keeps passwords in the
+  system keyring, and has triggers, aliases and a sidebar for game data.
+  Packaged by Asciiverse from github.com/Pommersche92/durthang.
+contents:
+  - src: stage/durthang
+    dst: /usr/bin/durthang
+    file_info:
+      mode: 0755
+  - src: LICENSE
+    dst: /usr/share/doc/durthang/copyright
+    file_info:
+      mode: 0644
+  - src: README.md
+    dst: /usr/share/doc/durthang/README.md
+    file_info:
+      mode: 0644

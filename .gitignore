@@ -1,2 +1,8 @@
 /target
 /dist
+
+# Asciiverse packaging scratch
+/target-musl/
+/stage/
+/dist/
+/dist-test/
