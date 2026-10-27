@@ -1,3 +1,16 @@
+> **Play it with Asciiverse.** With [av](https://asciiverse.sh), the Asciiverse
+> client:
+>
+> ```
+> av install durthang
+> av play durthang
+> ```
+>
+> Or download the archive for your system from this repository's Releases,
+> unpack it and run `./durthang` (`durthang.exe` on Windows).
+>
+> The original README follows.
+
 <div align="center">
   <img src="docs/images/durthang-icon.png" alt="Durthang" width="128" />
 </div>

@@ -25,3 +25,9 @@ is the `upstream` remote; the `asciiverse` branch carries the changes below.
 
 - Windows builds use MSVC. Upstream's build.rs embeds the icon with MinGW's
   windres, which MSVC builds skip with a warning, so the exe has no icon.
+
+## Ours
+
+- **How to play it, at the top of README.md.** A short note on installing and
+  starting it with av, or from a release archive; the original text follows
+  unchanged.
