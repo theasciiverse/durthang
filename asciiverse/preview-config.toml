@@ -1,0 +1,13 @@
+[[servers]]
+id = "6f1c0d6e-9d55-4a39-8f7e-0b1a3c1f2a01"
+name = "BatMUD"
+host = "batmud.bat.org"
+port = 2022
+tls  = true
+
+[[characters]]
+id        = "2b7c6a1d-55e1-4b8e-9a3f-6c0d2e4f8b02"
+name      = "Visitor"
+server_id = "6f1c0d6e-9d55-4a39-8f7e-0b1a3c1f2a01"
+login     = ""
+notes     = "just looking around"
